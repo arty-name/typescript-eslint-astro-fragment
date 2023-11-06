@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "standard-with-typescript",
+    "plugin:@typescript-eslint/strict-type-checked"
+  ],
+  "overrides": [
+    {
+      "files": ["*.astro"],
+      "parser": "astro-eslint-parser",
+      "parserOptions": {
+        "parser": "@typescript-eslint/parser",
+        "extraFileExtensions": [".astro"]
+      }
+    }
+  ]
+}
