@@ -3,6 +3,7 @@
     "standard-with-typescript",
     "plugin:@typescript-eslint/strict-type-checked"
   ],
+  "plugins": ["astro"],
   "overrides": [
     {
       "files": ["*.astro"],
