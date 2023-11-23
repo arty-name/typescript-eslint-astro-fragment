@@ -5,6 +5,12 @@
     "plugin:import/typescript"
   ],
   "plugins": ["astro"],
+  "settings": {
+    "import/parsers": {
+      "astro-eslint-parser": [".astro"],
+      "espree": [".js"]
+    }
+  },
   "overrides": [
     {
       "files": ["*.astro"],
